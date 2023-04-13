@@ -11,3 +11,13 @@ create model & controller
 
 add configure jenssegers di config/app & config/database
 
+endpoint yang ada :
+Methode     URL                         Ket 
+get         'kelas'                     get all data kelas
+get         'kelas/{id}'                get data kelas by id dan siswa didalamnya
+post        'kelas'                     create data kelas
+put         'kelas/{id}'                update data kelas by id
+get         'siswa'                     get all data siswa
+get         'siswa/{id}'                get data siswa by id berserta nilai mata pelajaran
+get         'nilai/{pelajaran}',        get data nilai per mata pelajaran
+post        'nilai'                     create nilai mata pelajaran
